@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		27212C1517695959000A00F8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27212C1417695959000A00F8 /* main.c */; };
 		27212C1717695959000A00F8 /* TestPointers.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27212C1617695959000A00F8 /* TestPointers.1 */; };
+		AC205BC8176D8F6F00BAC029 /* MergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = AC205BC7176D8F6F00BAC029 /* MergeSort.c */; };
+		AC205BCA176D901D00BAC029 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = AC205BC9176D901D00BAC029 /* LinkedList.c */; };
+		AC205BCD176D90C300BAC029 /* TestMergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = AC205BCC176D90C300BAC029 /* TestMergeSort.c */; };
+		AC205BCF176D90E500BAC029 /* TestLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = AC205BCE176D90E500BAC029 /* TestLinkedList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,12 @@
 		27212C1117695959000A00F8 /* TestPointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestPointers; sourceTree = BUILT_PRODUCTS_DIR; };
 		27212C1417695959000A00F8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		27212C1617695959000A00F8 /* TestPointers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestPointers.1; sourceTree = "<group>"; };
+		AC205BC6176D8F6100BAC029 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		AC205BC7176D8F6F00BAC029 /* MergeSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MergeSort.c; sourceTree = "<group>"; };
+		AC205BC9176D901D00BAC029 /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		AC205BCB176D902C00BAC029 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		AC205BCC176D90C300BAC029 /* TestMergeSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestMergeSort.c; sourceTree = "<group>"; };
+		AC205BCE176D90E500BAC029 /* TestLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestLinkedList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,12 @@
 			children = (
 				27212C1417695959000A00F8 /* main.c */,
 				27212C1617695959000A00F8 /* TestPointers.1 */,
+				AC205BC6176D8F6100BAC029 /* MergeSort.h */,
+				AC205BC7176D8F6F00BAC029 /* MergeSort.c */,
+				AC205BC9176D901D00BAC029 /* LinkedList.c */,
+				AC205BCB176D902C00BAC029 /* LinkedList.h */,
+				AC205BCC176D90C300BAC029 /* TestMergeSort.c */,
+				AC205BCE176D90E500BAC029 /* TestLinkedList.c */,
 			);
 			path = TestPointers;
 			sourceTree = "<group>";
@@ -118,6 +134,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				27212C1517695959000A00F8 /* main.c in Sources */,
+				AC205BC8176D8F6F00BAC029 /* MergeSort.c in Sources */,
+				AC205BCA176D901D00BAC029 /* LinkedList.c in Sources */,
+				AC205BCD176D90C300BAC029 /* TestMergeSort.c in Sources */,
+				AC205BCF176D90E500BAC029 /* TestLinkedList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +234,7 @@
 				27212C1C17695959000A00F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
