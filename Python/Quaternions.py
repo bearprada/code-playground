@@ -29,8 +29,8 @@ class ComplexNumber(ShowLogger):
         return ComplexNumber(mr, mi)
 
     def __div__(self,other): # (ac+bd)/(c^2+d^2) + (bc-ad)/(c^2+d^2) i
-    	tmp = (other.r*other.r)+(other.i*other.i)
-    	mr = ((self.r*other.r)+(self.i*other.i))/tmp
+        tmp = (other.r*other.r)+(other.i*other.i)
+        mr = ((self.r*other.r)+(self.i*other.i))/tmp
         mi = ((self.i*other.r)-(self.r*other.i))/tmp
         return ComplexNumber(mr, mi)
 
@@ -65,7 +65,7 @@ class Quaternion(ShowLogger):
 
     def __div__(a,b):
         # TODO
-    	pass
+        pass
 
     def __mul__(a,b):
         #a1a2-b1b2-c1c2-d1d2
