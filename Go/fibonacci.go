@@ -37,6 +37,11 @@ func fibonacci_dp2(n int) uint64 {
 	}
 }
 
+func exec(f func uint64) uint64 {
+	ch := make(chan uint64)
+	// TODO make a helper function can execute the task in different thread
+}
+
 func main() {
 	fmt.Printf("result %d \n", fibonacci_recursive(10))
 	fmt.Printf("result %d \n", fibonacci_dp1(100))
